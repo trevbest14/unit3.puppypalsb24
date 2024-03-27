@@ -1,7 +1,6 @@
 import {useState} from 'react'
 import {puppyList} from './data.js'
 import './path-to-css.css'
-
 import './App.css'
 
 function App() {
@@ -13,7 +12,7 @@ console.log(featuredPup)
 console.log(setPuppies)
 
 console.log("puppyList: ", puppyList);
-console.log("puppy.id:")// puppy.id)
+console.log("puppy.id:" , puppy.id)
 
 return (
   <div className="App">
